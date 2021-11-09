@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header .banner{
+    width: 100%;
+    background-image: url('./anh/top-5-hang-son-nuoc-chat-luong-cao-2-e1500973452734.jpg');
+    background-color: #fff;
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(157, 255, 0);
+    text-shadow: #fff;
+}
+
+.header .banner h1{
+    text-decoration: underline;
+}
+
+.header .menu ul {
+    width: 100%;
+    background-color: #FFCCCC;
+    height: 46px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header .menu li {
+    list-style-type: none;
+    padding: 4px;
+}
+
+.header .menu a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 46px;
+}
+
+.header .menu li:hover {
+    color: #FFCCCC;
+    background-color: #fff;
+}
+
+.header .menu >.sub:hover {
+    
+}
+
+.header .menu .sub{
+    display: none;
+}
+
+.content .son{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content .anh {
+    text-align: center;
+}
+
+.content .anh img {
+    width: 200px;
+    height: 200px;
+}
